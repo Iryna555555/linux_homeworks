@@ -1,35 +1,21 @@
-   0 cd
-   1 mkdir /home/animals
-   2 ls
-   3 ls /home
-   4 mkdir /home/animals/dogs
-   5 mkdir /home/animals/cats
-   6 mkdir /home/animals/fish
-   7 tree
-   8 tree /home/
-   9 touch /home/animals/dogs/pluto
-  10 rm /home/animals/dogs/pluto 
-  11 tree /home/animals/
-  12 touch /home/animals/dogs/pluto.txt
-  13 touch /home/animals/cats/garfield.txt
-  14 touch /home//animals/fish/nemo.txt
-  15 tree /home/animals/
-  16 cd
-  17 cd /
-  18 ls
-  19 cd
-  20 touch /tmp/adam.txt
-  21 ls
-  22 ls /tmp
-  23 mkdir /home/humans
-  24 cp /tmp/adam.txt /home/humans/
-  25 ls /home/humans/
-  26 touch /tmp/evA
-  27 rm /tmp/evA
-  28 touch /tmp/evA.txt
-  29 ls /tmp
-  30 mv /tmp/evA.txt /opt/eve.txt
-  31 ls /opt
-  32 mv /opt/eve.txt /home/humans/
-  33 tree /home/humans/
-  34 history > history.txt
+   0 date
+   1 top
+   2  ps -ef | tail +2 | wc -1
+   3 nano sleeper.sh
+   4 cat /proc/cpuinfo 
+   5 nano sleeper.sh
+   6 cat /etc/os-release | head -1
+   7 cat /etc/os-release | grep -o NAME="Alpine Linux"
+   8 cat /etc/os-release | grep -w NAME=Alpine Linux
+   9 cat /etc/os-release | grep -w NAME=
+  10 nano sleeper.sh
+  11 ps -ef
+  12 free
+  13 df -h
+  14 cat /etc/os-release | head -1
+  15 cat /etc/os-release | head -1 | grep -o Alpine
+  16 nano sleeper.sh
+  17 bash ./sleeper.sh
+  18 nano sleeper.sh
+  19 history
+  20 history > /tmp/history.txt
